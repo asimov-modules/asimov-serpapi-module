@@ -51,8 +51,8 @@ jobs:
         with:
           target: ${{ matrix.target }}
           artifact-name: ${{ matrix.artifact }}
-          artifact-prefix: asimov-serpapi-importer
-          binary-name: asimov-serpapi-importer
+          artifact-prefix: asimov-serpapi-fetcher
+          binary-name: asimov-serpapi-fetcher
           binary-extension: ${{ matrix.extension }}
           strip-artifact: ${{ matrix.strip || 'false' }}
           use-zigbuild: ${{ matrix.use-zigbuild || 'false' }}
