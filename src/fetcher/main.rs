@@ -2,9 +2,9 @@
 
 #[cfg(feature = "std")]
 fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
+    use asimov_module::getenv;
     use asimov_serpapi_module::{api::SerpApi, find_engine_for};
     use clientele::SysexitsError::*;
-    use secrecy::SecretString;
     use std::io::stdout;
 
     // Load environment variables from `.env`:
@@ -31,7 +31,9 @@ fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
     }
 
     // Obtain the SerpApi API key from the environment:
-    let api_key = SecretString::from(std::env::var("SERPAPI_KEY")?);
+    let Some(api_key) = getenv::var_secret("SERPAPI_KEY") else {
+        return Ok(EX_CONFIG); // not configured
+    };
     let api = SerpApi::new(api_key);
 
     // Process each of the given URL arguments:

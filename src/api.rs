@@ -9,7 +9,7 @@ pub use duckduckgo::*;
 mod google;
 pub use google::*;
 
-pub use secrecy::{ExposeSecret, SecretString};
+pub use asimov_module::secrecy::{ExposeSecret, SecretString};
 
 use asimov_module::prelude::{Box, Result, String};
 use core::error::Error;
