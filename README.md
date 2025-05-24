@@ -66,9 +66,9 @@ asimov-serpapi-fetcher https://www.bing.com/search?q=Isaac+Asimov
 
 Engine  | URL Prefix | JSON | RDF
 :------ | :--------- | :--: | :--:
-Bing | `https://www.bing.com/search?q=Isaac+Asimov` | ✅ | 🚧
-DuckDuckGo | `https://duckduckgo.com/?q=Isaac+Asimov` | ✅ | 🚧
-Google | `https://www.google.com/search?q=Isaac+Asimov` | ✅ | 🚧
+Bing | `https://www.bing.com/search?q=` | ✅ | 🚧
+DuckDuckGo | `https://duckduckgo.com/?q=` | ✅ | 🚧
+Google | `https://www.google.com/search?q=` | ✅ | 🚧
 <img width="100" height="1"/> | <img width="550" height="1"/> | <img width="50" height="1"/> | <img width="50" height="1"/>
 
 ## 👨‍💻 Development

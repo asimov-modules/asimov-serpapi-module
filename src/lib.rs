@@ -12,9 +12,9 @@ use engine::Engine;
 
 pub fn find_engine_for(url: impl AsRef<str>) -> Option<&'static Engine> {
     let url = url.as_ref();
-    for (url_prefix, dataset) in engines::URL_PREFIX_TO_ENGINE.iter().rev() {
-        if url.starts_with(url_prefix) {
-            return Some(dataset);
+    for (url_pattern, engine) in engines::URL_PREFIX_TO_ENGINE.iter().rev() {
+        if url.starts_with(url_pattern) {
+            return Some(engine);
         }
     }
     None // not found
