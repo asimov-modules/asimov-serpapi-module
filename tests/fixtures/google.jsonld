@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "know": "https://know.dev/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "icon": {
+      "@id": "know:icon",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "know:image",
+      "@type": "@id"
+    },
+    "items": {
+      "@id": "know:items",
+      "@type": "know:SearchResult",
+      "@container": "@list"
+    },
+    "link": {
+      "@id": "know:link",
+      "@type": "@id"
+    },
+    "position": {
+      "@id": "know:position",
+      "@type": "xsd:integer"
+    },
+    "summary": {
+      "@id": "know:summary",
+      "@language": "en"
+    },
+    "title": {
+      "@id": "know:title",
+      "@language": "en"
+    }
+  },
+  "@id": "https://www.google.com/search?q=Isaac+Asimov&oq=Isaac+Asimov&sourceid=chrome&ie=UTF-8",
+  "@type": "know:SearchResults",
+  "title": "Isaac Asimov",
+  "summary": "Isaac Asimov was a prolific Russian-American author and biochemistry professor at Boston University. He's considered one of science fiction's \"Big Three\" writers, alongside Arthur C. Clarke and Robert A. Heinlein. Asimov's 53-year career (1939-1992) produced 40 novels, 383 short stories, and over 280 non-fiction books. He's best known for his Foundation series (1951-1953) and robot stories, which explored the relationship between humans and machines. +1MoreLess",
+  "image": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/4ca33ad367f6edfa326c3de2f3a7f2f22410cd032398ab30b785e169ceda0f447db700ba03f77a19.jpeg",
+  "items": [
+    {
+      "@type": "know:SearchResult",
+      "position": 1,
+      "title": "Isaac Asimov",
+      "summary": "Asimov was considered one of the \"Big Three\" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke.",
+      "link": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75af3ee1d99ecd4bdae8a26b48dcc2350afa.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 2,
+      "title": "Isaac Asimov Home Page",
+      "summary": "Here you'll find a comprehensive collection of resources pertaining to Isaac Asimov (1920-1992), the quintessential author, who in his lifetime wrote over 500 ...",
+      "link": "http://www.asimovonline.com/",
+      "icon": null
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 3,
+      "title": "Isaac Asimov (Author of Foundation)",
+      "summary": "Isaac Asimov, a professor of biochemistry, wrote as a highly successful author, best known for his books. Asimov, professor, generally considered of all time, ...",
+      "link": "https://www.goodreads.com/author/show/16667.Isaac_Asimov",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75af8b475d26002db98f71f4c239d10ce9d7.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 4,
+      "title": "List of Books by Isaac Asimov",
+      "summary": "Asimov penned over 400 books on subjects ranging from science to Shakespeare to history, though he was most loved for his award-winning science fiction sagas.",
+      "link": "https://www.barnesandnoble.com/b/contributor/isaac-asimov/_/N-2kao",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75af82e65332caf037063d56ff25b169ce72.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 5,
+      "title": "Isaac Asimov | Biography & Facts",
+      "summary": "American author and biochemist, a highly successful and prolific writer of science fiction and of science books for the layperson.",
+      "link": "https://www.britannica.com/biography/Isaac-Asimov",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75afd62098e9e800fea927b600e1ca5d0eb2.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 6,
+      "title": "Isaac Asimov bibliography (chronological)",
+      "summary": "Isaac Asimov (1920–1992) wrote and published 40 novels, 383 short stories, over 280 non-fiction books, and edited about 147 others.",
+      "link": "https://en.wikipedia.org/wiki/Isaac_Asimov_bibliography_(chronological)",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75afac54ed4bb02e85346746dde0d4d2c186.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 7,
+      "title": "Isaac Asimov Is One of The Best Writers of All Time : r/scifi",
+      "summary": "Asimov is definitely great and a big name for a reason, some of his best stories are up with the very best ever to have been written.",
+      "link": "https://www.reddit.com/r/scifi/comments/10zvlsf/isaac_asimov_is_one_of_the_best_writers_of_all/",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75afabc674b53de5067229d5a26727059f31.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 8,
+      "title": "Summary Bibliography: Isaac Asimov",
+      "summary": "Note: There are other authors with the same name: Isaac Asimov (in error) · Author: Isaac Asimov Author Record # 5 · Legal Name: Asimov, Isaac · Birthplace: ...",
+      "link": "https://www.isfdb.org/cgi-bin/ea.cgi?5",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75af402bb47cf2c4f9baa24bec08fbc2ca87.png"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 9,
+      "title": "Isaac Asimov",
+      "summary": "Isaac Asimov (c. 2 January 1920 – 6 April 1992) was a Russian-born American biochemist who was a prolific writer of both fiction and non-fiction, ...",
+      "link": "https://en.wikiquote.org/wiki/Isaac_Asimov",
+      "icon": "https://serpapi.com/searches/6831484b71ff8c1e3b221777/images/12816b7959a640d629b2433a0e4d75afb96fc9c8728754fc1e63409821103eef.png"
+    }
+  ]
+}

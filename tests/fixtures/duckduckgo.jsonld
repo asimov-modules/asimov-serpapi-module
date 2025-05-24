@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "know": "https://know.dev/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "icon": {
+      "@id": "know:icon",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "know:image",
+      "@type": "@id"
+    },
+    "items": {
+      "@id": "know:items",
+      "@type": "know:SearchResult",
+      "@container": "@list"
+    },
+    "link": {
+      "@id": "know:link",
+      "@type": "@id"
+    },
+    "position": {
+      "@id": "know:position",
+      "@type": "xsd:integer"
+    },
+    "summary": {
+      "@id": "know:summary",
+      "@language": "en"
+    },
+    "title": {
+      "@id": "know:title",
+      "@language": "en"
+    }
+  },
+  "@id": "https://duckduckgo.com/?q=Isaac+Asimov&kl=us-en",
+  "@type": "know:SearchResults",
+  "title": "Isaac Asimov",
+  "summary": "Isaac Asimov was an American writer and professor of biochemistry at Boston University. During his lifetime, Asimov was considered one of the \"Big Three\" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke. A prolific writer, he wrote or edited more than 500 books. He also wrote an estimated 90,000 letters and postcards. Best known for his hard science fiction, Asimov also wrote mysteries and fantasy, as well as popular science and other non-fiction. Asimov's most famous work is the Foundation series, the first three books of which won the one-time Hugo Award for \"Best All-Time Series\" in 1966. His other major series are the Galactic Empire series and the Robot series. The Galactic Empire novels are set in the much earlier history of the same fictional universe as the Foundation series. Later, with Foundation and Earth, he linked this distant future to the Robot series, creating a unified \"future history\" for his works.",
+  "image": "https://duckduckgo.com/i/738cb400cf3ea1a7.jpg",
+  "items": [
+    {
+      "@type": "know:SearchResult",
+      "position": 1,
+      "title": "Isaac Asimov - Wikipedia",
+      "summary": "A comprehensive biography of Isaac Asimov, a prolific American writer and professor of biochemistry. Learn about his life, works, achievements, and legacy in science fiction and popular science.",
+      "link": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+      "icon": "https://external-content.duckduckgo.com/ip3/en.wikipedia.org.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 2,
+      "title": "10 of the Best Isaac Asimov Books Everyone Should Read",
+      "summary": "Explore the diverse and prolific works of Isaac Asimov, one of the most influential science-fiction and popular science writers of the twentieth century. From his classic robot stories to his guides to Shakespeare and the Bible, discover his best books in this list.",
+      "link": "https://interestingliterature.com/2023/10/best-isaac-asimov-books/",
+      "icon": "https://external-content.duckduckgo.com/ip3/interestingliterature.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 3,
+      "title": "Isaac Asimov | Biography & Facts | Britannica",
+      "summary": "Isaac Asimov (born January 2, 1920, Petrovichi, Russia—died April 6, 1992, New York, New York, U.S.) was an American author and biochemist, a highly successful and prolific writer of science fiction and of science books for the layperson. He wrote or edited about 500 volumes, of which the most famous are those in the Foundation and robot series.",
+      "link": "https://www.britannica.com/biography/Isaac-Asimov",
+      "icon": "https://external-content.duckduckgo.com/ip3/www.britannica.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 4,
+      "title": "Isaac Asimov - Biography",
+      "summary": "Isaac Asimov was born Isaak Yudovick Ozimov on January 2, 1920, in Petrovichi, Russia, to Anna Rachel Berman and Judah Ozimov. The family immigrated to the United States when Asimov was a toddler ...",
+      "link": "https://www.biography.com/authors-writers/isaac-asimov",
+      "icon": "https://external-content.duckduckgo.com/ip3/www.biography.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 5,
+      "title": "Isaac Asimov - New World Encyclopedia",
+      "summary": "A comprehensive biography of Isaac Asimov, a Russian-born American author and professor of biochemistry, best known for his science fiction and popular science books. Learn about his life, works, influences, awards, and legacy.",
+      "link": "https://www.newworldencyclopedia.org/entry/Isaac_Asimov",
+      "icon": "https://external-content.duckduckgo.com/ip3/www.newworldencyclopedia.org.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 6,
+      "title": "Isaac Asimov Home Page",
+      "summary": "Learn about the life and works of Isaac Asimov, the prolific author of science fiction, nonfiction, and mystery stories. Find out about his Foundation series adaptation, his centennial year, his autobiography, and more.",
+      "link": "https://www.asimovonline.com/",
+      "icon": "https://external-content.duckduckgo.com/ip3/www.asimovonline.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 7,
+      "title": "Isaac Asimov: Life and Major Works - World History Edu",
+      "summary": "Learn about the life and achievements of Isaac Asimov, one of the greatest science fiction writers of all time. Explore his famous Foundation and Robot series, his non-fiction books, his essays, and his views on humanism and AI.",
+      "link": "https://worldhistoryedu.com/isaac-asimov-life-and-major-works/",
+      "icon": "https://external-content.duckduckgo.com/ip3/worldhistoryedu.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 8,
+      "title": "Isaac Asimov \"Biochemist\" - Biography, Age and Married Life",
+      "summary": "Isaac Asimov was not only a celebrated figure in the realm of science fiction but also a prolific and varied writer whose contributions spanned a multitude of genres and subjects. With nearly 500 books to his name, Asimov's literary portfolio includes influential works on biology, mathematics, and religion, demonstrating his remarkable ...",
+      "link": "https://biographyhost.com/p/isaac-asimov-biography.html",
+      "icon": "https://external-content.duckduckgo.com/ip3/biographyhost.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 9,
+      "title": "Isaac Asimov: The Life of a Science Fiction Legend",
+      "summary": "Isaac Asimov was born between October 4, 1919, and January 2, 1920, in Petrovichi, Russian SFSR. Despite the uncertainty of his birth date, he celebrated it on January 2. His parents, Anna Rachel (née Berman) and Judah Asimov, were Russian Jews. Judah, a miller's son, prioritized education but did not strictly adhere to Orthodox Jewish customs.",
+      "link": "https://thereliablenarrator.com/isaac-asimov/",
+      "icon": "https://external-content.duckduckgo.com/ip3/thereliablenarrator.com.ico"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 10,
+      "title": "Isaac Asimov: centenary of the great explainer - Nature",
+      "summary": "Isaac Asimov, the Russian-born chemist and science-fiction colossus (1920-92), had an answer: the two are, in fact, the same. Asimov spent more than half of the twentieth century cultivating ...",
+      "link": "https://www.nature.com/articles/d41586-020-00176-4",
+      "icon": "https://external-content.duckduckgo.com/ip3/www.nature.com.ico"
+    }
+  ]
+}

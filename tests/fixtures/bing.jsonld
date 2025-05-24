@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "know": "https://know.dev/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "icon": {
+      "@id": "know:icon",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "know:image",
+      "@type": "@id"
+    },
+    "items": {
+      "@id": "know:items",
+      "@type": "know:SearchResult",
+      "@container": "@list"
+    },
+    "link": {
+      "@id": "know:link",
+      "@type": "@id"
+    },
+    "position": {
+      "@id": "know:position",
+      "@type": "xsd:integer"
+    },
+    "summary": {
+      "@id": "know:summary",
+      "@language": "en"
+    },
+    "title": {
+      "@id": "know:title",
+      "@language": "en"
+    }
+  },
+  "@id": "https://www.bing.com/search?form=QBRE&q=Isaac+Asimov&lq=0",
+  "@type": "know:SearchResults",
+  "title": "Isaac Asimov",
+  "summary": "American writer and biochemist",
+  "image": null,
+  "items": [
+    {
+      "@type": "know:SearchResult",
+      "position": 1,
+      "title": "10 of the Best Isaac Asimov Books Everyone Should Read",
+      "summary": "Explore the diverse and prolific works of Isaac Asimov, one of the most influential science-fiction and popular science writers of the twentieth century. From his classic robot stories to his …",
+      "link": "https://interestingliterature.com/2023/10/best-isaac-asimov-books/",
+      "icon": "https://th.bing.com/th/id/ODLS.2e8b51e4-058d-457d-a238-43252ee76be8?w=32&h=32&qlt=91&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 2,
+      "title": "Isaac Asimov | Biography & Facts | Britannica",
+      "summary": "Isaac Asimov, American author and biochemist, a highly successful and prolific writer of science fiction and science books for the layperson. He wrote or edited about 500 …",
+      "link": "https://www.britannica.com/biography/Isaac-Asimov",
+      "icon": "https://th.bing.com/th/id/ODLS.547e2cde-f6fd-41a2-ae17-8399cbea7734?w=32&h=32&qlt=92&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 3,
+      "title": "Isaac Asimov - Biography",
+      "summary": "Scholar Isaac Asimov was one of the 20th century's most prolific writers, writing in many genres. He was known for sci-fi works like 'Foundation' and 'I, Robot.'",
+      "link": "https://www.biography.com/authors-writers/isaac-asimov",
+      "icon": "https://th.bing.com/th/id/ODLS.059aa8bf-9e32-425b-8193-1270955e7945?w=32&h=32&qlt=93&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 4,
+      "title": "Isaac Asimov - New World Encyclopedia",
+      "summary": "A comprehensive biography of Isaac Asimov, a Russian-born American author and professor of biochemistry, best known for his science fiction and popular science books. Learn about his life, works, influences, awards, and legacy.",
+      "link": "https://www.newworldencyclopedia.org/entry/Isaac_Asimov",
+      "icon": "https://th.bing.com/th/id/ODLS.18b74d17-1d89-4ea5-9363-a09d44e991f2?w=32&h=32&qlt=94&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 5,
+      "title": "Isaac Asimov Home Page",
+      "summary": "Learn about the life and works of Isaac Asimov, the prolific author of science fiction, nonfiction, and mystery stories. Find out about his Foundation series adaptation, his centennial year, his autobiography, and more.",
+      "link": "https://www.asimovonline.com/",
+      "icon": "https://th.bing.com/th/id/ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F?w=32&h=32&qlt=95&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 6,
+      "title": "Isaac Asimov: Life and Major Works - World History Edu",
+      "summary": "Learn about the life and achievements of Isaac Asimov, one of the greatest science fiction writers of all time. Explore his famous Foundation and Robot series, his non-fiction books, his essays, and his views on humanism …",
+      "link": "https://worldhistoryedu.com/isaac-asimov-life-and-major-works/",
+      "icon": "https://th.bing.com/th/id/ODLS.cb29db32-a5df-48c0-aa2b-5190fa404982?w=32&h=32&qlt=96&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 7,
+      "title": "Isaac Asimov \"Biochemist\" - Biography, Age and Married Life",
+      "summary": "Explore the life and works of Isaac Asimov, a prolific biochemist and author known for his sci-fi classics, including I, Robot and Foundation.",
+      "link": "https://biographyhost.com/p/isaac-asimov-biography.html",
+      "icon": "https://th.bing.com/th/id/ODLS.050e99d9-8421-4312-bf75-8b07a911ef08?w=32&h=32&qlt=97&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 8,
+      "title": "Isaac Asimov - Open Library",
+      "summary": "Isaac Asimov Asimov was born sometime between October 4, 1919 and January 2, 1920 in Petrovichi in Smolensk Oblast, RSFSR (now Russia), the son of a Jewish family of millers. Although his exact date of birth …",
+      "link": "https://openlibrary.org/authors/OL34221A/Isaac_Asimov",
+      "icon": "https://th.bing.com/th/id/ODLS.53e74e83-8445-4fe3-bdbf-2ad0e21f89c2?w=32&h=32&qlt=98&pcl=fffffa&o=6&pid=1.2"
+    },
+    {
+      "@type": "know:SearchResult",
+      "position": 9,
+      "title": "The Life of Isaac Asimov - Science Me",
+      "summary": "Having spent 30 years writing science fiction classics, Isaac Asimov turned his efforts to educating an America that dangerously neglected science. Here's how the great scientist and author understood the world of the 20th century, giving …",
+      "link": "https://www.scienceme.com/the-life-of-isaac-asimov/",
+      "icon": "https://th.bing.com/th/id/ODLS.d89f58f5-80f1-4653-a0bf-eac1f337508a?w=32&h=32&qlt=99&pcl=fffffa&o=6&pid=1.2"
+    }
+  ]
+}
