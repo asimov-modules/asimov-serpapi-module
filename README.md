@@ -11,8 +11,7 @@
 - Imports structured data from DuckDuckGo, Google, and Bing search results.
 - Collects the raw JSON data via the SerpApi real-time API (requires an API key).
 - Constructs a semantic knowledge graph based on the [KNOW] ontology.
-- Supports plain JSON output as well as [RDF] output formats such as JSON-LD,
-  Turtle, and N-Triples.
+- Supports plain JSON output as well as [RDF] output in the form of JSON-LD.
 
 ## 🛠️ Prerequisites
 
@@ -35,19 +34,22 @@ export SERPAPI_KEY="..."
 ### Fetching DuckDuckGo Results
 
 ```bash
-asimov-serpapi-fetcher https://duckduckgo.com/?q=Isaac+Asimov
+asimov-serpapi-fetcher https://duckduckgo.com/?q=Isaac+Asimov   # JSON
+asimov-serpapi-importer https://duckduckgo.com/?q=Isaac+Asimov  # JSON-LD
 ```
 
 ### Fetching Google Results
 
 ```bash
-asimov-serpapi-fetcher https://www.google.com/search?q=Isaac+Asimov
+asimov-serpapi-fetcher https://www.google.com/search?q=Isaac+Asimov   # JSON
+asimov-serpapi-importer https://www.google.com/search?q=Isaac+Asimov  # JSON-LD
 ```
 
 ### Fetching Bing Results
 
 ```bash
-asimov-serpapi-fetcher https://www.bing.com/search?q=Isaac+Asimov
+asimov-serpapi-fetcher https://www.bing.com/search?q=Isaac+Asimov   # JSON
+asimov-serpapi-importer https://www.bing.com/search?q=Isaac+Asimov  # JSON-LD
 ```
 
 ## ⚙ Configuration
@@ -61,14 +63,15 @@ asimov-serpapi-fetcher https://www.bing.com/search?q=Isaac+Asimov
 ### Installed Binaries
 
 - `asimov-serpapi-fetcher`: collects JSON data from the SerpApi real-time API
+- `asimov-serpapi-importer`: collects and transforms JSON into JSON-LD
 
 ### Supported Engines
 
 Engine  | URL Prefix | JSON | RDF
 :------ | :--------- | :--: | :--:
-Bing | `https://www.bing.com/search?q=` | ✅ | 🚧
-DuckDuckGo | `https://duckduckgo.com/?q=` | ✅ | 🚧
-Google | `https://www.google.com/search?q=` | ✅ | 🚧
+Bing | `https://www.bing.com/search?q=` | ✅ | ✅
+DuckDuckGo | `https://duckduckgo.com/?q=` | ✅ | ✅
+Google | `https://www.google.com/search?q=` | ✅ | ✅
 <img width="100" height="1"/> | <img width="550" height="1"/> | <img width="50" height="1"/> | <img width="50" height="1"/>
 
 ## 👨‍💻 Development
