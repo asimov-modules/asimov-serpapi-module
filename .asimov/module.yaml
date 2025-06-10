@@ -1,0 +1,15 @@
+# See: https://github.com/asimov-modules/asimov-template-module/blob/master/.asimov/module.yaml
+---
+name: serpapi
+label: SerpApi
+summary: Data import powered by the SerpApi search data platform.
+links:
+  - https://github.com/asimov-modules/asimov-serpapi-module
+  - https://crates.io/crates/asimov-serpapi-module
+  - https://pypi.org/project/asimov-serpapi-module
+  - https://rubygems.org/gems/asimov-serpapi-module
+  - https://npmjs.com/package/asimov-serpapi-module
+
+flows:
+  - asimov-serpapi-fetcher
+  - asimov-serpapi-importer
