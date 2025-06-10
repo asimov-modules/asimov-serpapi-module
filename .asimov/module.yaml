@@ -10,6 +10,13 @@ links:
   - https://rubygems.org/gems/asimov-serpapi-module
   - https://npmjs.com/package/asimov-serpapi-module
 
-flows:
-  - asimov-serpapi-fetcher
-  - asimov-serpapi-importer
+provides:
+  flows:
+    - asimov-serpapi-fetcher
+    - asimov-serpapi-importer
+
+handles:
+  url_prefixes:
+    - https://bing.com/search?q=
+    - https://duckduckgo.com/?q=
+    - https://google.com/search?q=
