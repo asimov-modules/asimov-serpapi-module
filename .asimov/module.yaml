@@ -1,4 +1,4 @@
-# See: https://github.com/asimov-modules/asimov-template-module/blob/master/.asimov/module.yaml
+# See: https://asimov-specs.github.io/module-manifest/
 ---
 name: serpapi
 label: SerpApi
@@ -11,7 +11,7 @@ links:
   - https://npmjs.com/package/asimov-serpapi-module
 
 provides:
-  flows:
+  programs:
     - asimov-serpapi-fetcher
     - asimov-serpapi-importer
 
