@@ -2,7 +2,7 @@
 
 [package]
 name = "asimov-serpapi-module"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["ASIMOV Protocol <support@asimov.so>"]
 edition = "2024"
 #rust-version = "1.85"
@@ -24,7 +24,7 @@ publish = true
 [features]
 default = ["all", "cli", "std"]
 all = ["tracing"]
-cli = ["pretty", "dep:clientele"]
+cli = ["pretty", "std", "dep:clientele"]
 pretty = ["dep:colored_json"]
 std = [
     "asimov-module/std",
