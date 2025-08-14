@@ -2,7 +2,6 @@
 
 #[cfg(feature = "std")]
 fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
-    use asimov_module::getenv;
     use asimov_serpapi_module::{api::SerpApi, find_engine_for, jq};
     use clientele::SysexitsError::*;
     use std::io::stdout;
@@ -31,10 +30,23 @@ fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
     }
 
     // Obtain the SerpApi API key from the environment:
-    let Some(api_key) = getenv::var_secret("SERPAPI_KEY") else {
-        return Ok(EX_CONFIG); // not configured
+    let manifest = match asimov_module::ModuleManifest::read_manifest("serpapi") {
+        Ok(manifest) => manifest,
+        Err(e) => {
+            eprintln!("failed to read module manifest: {e}");
+            return Ok(EX_CONFIG);
+        }
     };
-    let api = SerpApi::new(api_key);
+
+    // Obtain the SerpApi API key from the environment:
+    let api_key = match manifest.variable("serpapi-key", None) {
+        Ok(api_key) => api_key,
+        Err(e) => {
+            eprintln!("failed to get API key: {e}");
+            return Ok(EX_CONFIG); // not configured
+        }
+    };
+    let api = SerpApi::new(api_key.into());
 
     // Process each of the given URL arguments:
     for url in urls {
