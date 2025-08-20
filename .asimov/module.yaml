@@ -10,6 +10,11 @@ links:
   - https://rubygems.org/gems/asimov-serpapi-module
   - https://npmjs.com/package/asimov-serpapi-module
 
+config:
+  variables:
+    - name: key
+      environment: SERPAPI_KEY
+
 provides:
   programs:
     - asimov-serpapi-fetcher
