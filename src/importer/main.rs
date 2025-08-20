@@ -30,21 +30,18 @@ fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
     }
 
     // Obtain the SerpApi API key from the environment:
-    let manifest = match asimov_module::ModuleManifest::read_manifest("serpapi") {
-        Ok(manifest) => manifest,
-        Err(e) => {
-            eprintln!("failed to read module manifest: {e}");
-            return Ok(EX_CONFIG);
-        }
+    let Ok(manifest) = asimov_module::ModuleManifest::read_manifest("serpapi")
+        .inspect_err(|e| eprintln!("failed to read module manifest: {e}"))
+    else {
+        return Ok(EX_CONFIG);
     };
 
     // Obtain the SerpApi API key from the environment:
-    let api_key = match manifest.variable("serpapi-key", None) {
-        Ok(api_key) => api_key,
-        Err(e) => {
-            eprintln!("failed to get API key: {e}");
-            return Ok(EX_CONFIG); // not configured
-        }
+    let Ok(api_key) = manifest
+        .variable("key", None)
+        .inspect_err(|e| eprintln!("failed to get API key: {e}"))
+    else {
+        return Ok(EX_CONFIG); // not configured
     };
     let api = SerpApi::new(api_key.into());
 

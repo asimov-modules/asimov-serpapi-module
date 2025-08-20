@@ -12,7 +12,7 @@ links:
 
 config:
   variables:
-    - name: serpapi-key
+    - name: key
       environment: SERPAPI_KEY
 
 provides:
