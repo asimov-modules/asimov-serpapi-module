@@ -12,7 +12,7 @@ pub static URL_PREFIX_TO_ENGINE: [(&str, Engine); 3] = [
         },
     ),
     (
-        "https://www.bing.com/search?q=",
+        "https://bing.com/search?q=",
         Engine {
             id: "bing",
             brand: "Bing",
@@ -20,7 +20,7 @@ pub static URL_PREFIX_TO_ENGINE: [(&str, Engine); 3] = [
         },
     ),
     (
-        "https://www.google.com/search?q=",
+        "https://google.com/search?q=",
         Engine {
             id: "google",
             brand: "Google",

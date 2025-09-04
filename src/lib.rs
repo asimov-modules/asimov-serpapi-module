@@ -15,7 +15,7 @@ mod engines;
 use engine::Engine;
 
 pub fn find_engine_for(url: impl AsRef<str>) -> Option<&'static Engine> {
-    let url = url.as_ref();
+    let url = url.as_ref().replace("https://www.", "https://");
     for (url_pattern, engine) in engines::URL_PREFIX_TO_ENGINE.iter().rev() {
         if url.starts_with(url_pattern) {
             return Some(engine);
