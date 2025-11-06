@@ -21,7 +21,6 @@ struct Options {
 fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
     use asimov_serpapi_module::{api::SerpApi, find_engine_for, jq};
     use clientele::SysexitsError::*;
-    use std::io::stdout;
 
     // Load environment variables from `.env`:
     clientele::dotenv().ok();
@@ -87,12 +86,7 @@ fn main() -> Result<clientele::SysexitsError, Box<dyn std::error::Error>> {
         let response = jq::search().filter_json_str(response)?;
 
         // Serialize the response data:
-        if cfg!(feature = "pretty") {
-            colored_json::write_colored_json(&response, &mut stdout())?;
-            println!();
-        } else {
-            println!("{}", serde_json::to_string(&response).unwrap());
-        }
+        println!("{}", response);
     }
 
     Ok(EX_OK)
