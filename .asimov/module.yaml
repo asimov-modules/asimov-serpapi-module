@@ -2,6 +2,7 @@
 ---
 name: serpapi
 label: SerpApi
+title: ASIMOV SerpApi Module
 summary: Data import powered by the SerpApi search data platform.
 links:
   - https://github.com/asimov-modules/asimov-serpapi-module

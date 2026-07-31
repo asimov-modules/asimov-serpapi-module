@@ -1,12 +1,14 @@
 # ASIMOV SerpApi Module
 
 [![License](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
-[![Package on Crates.io](https://img.shields.io/crates/v/asimov-serpapi-module.svg)](https://crates.io/crates/asimov-serpapi-module)
+[![Compatibility](https://img.shields.io/badge/rust-2024%2B-blue)](https://endoflife.date/rust)
+[![Package on Crates.io](https://img.shields.io/crates/v/asimov-serpapi-module)](https://crates.io/crates/asimov-serpapi-module)
+[![Documentation](https://img.shields.io/docsrs/asimov-serpapi-module?label=docs.rs)](https://docs.rs/asimov-serpapi-module)
 [![Package on PyPI](https://img.shields.io/pypi/v/asimov-serpapi-module.svg)](https://pypi.org/project/asimov-serpapi-module)
 [![Package on RubyGems](https://img.shields.io/gem/v/asimov-serpapi-module.svg)](https://rubygems.org/gems/asimov-serpapi-module)
 [![Package on NPM](https://img.shields.io/npm/v/asimov-serpapi-module.svg)](https://npmjs.com/package/asimov-serpapi-module)
 
-[ASIMOV] module for data import powered by the [SerpApi] search data platform.
+**[ASIMOV] module for data import powered by the [SerpApi] search data platform.**
 
 ## ✨ Features
 
@@ -21,6 +23,12 @@
 - [Rust] 1.85+ (2024 edition) if building from source code
 
 ## ⬇️ Installation
+
+### Installation with the [ASIMOV CLI]
+
+```bash
+asimov module install serpapi -v
+```
 
 ### Installation from PyPI
 
@@ -81,10 +89,50 @@ asimov-serpapi-importer https://www.bing.com/search?q=Isaac+Asimov  # JSON-LD
 
 ## 📚 Reference
 
-### Installed Binaries
+### Command-Line Interface
 
 - `asimov-serpapi-fetcher`: collects JSON data from the SerpApi real-time API
 - `asimov-serpapi-importer`: collects and transforms JSON into JSON-LD
+
+#### `asimov-serpapi-fetcher`
+
+```shellsession
+$ asimov-serpapi-fetcher --help
+asimov-serpapi-fetcher
+
+Usage: asimov-serpapi-fetcher [OPTIONS] [URLS]...
+
+Arguments:
+  [URLS]...
+
+Options:
+  -d, --debug            Enable debugging output
+      --license          Show license information
+  -v, --verbose...       Enable verbose output (may be repeated for more verbosity)
+  -V, --version          Print version information
+  -o, --output <FORMAT>  The output format
+  -h, --help             Print help
+```
+
+#### `asimov-serpapi-importer`
+
+```shellsession
+$ asimov-serpapi-importer --help
+asimov-serpapi-importer
+
+Usage: asimov-serpapi-importer [OPTIONS] [URLS]...
+
+Arguments:
+  [URLS]...
+
+Options:
+  -d, --debug            Enable debugging output
+      --license          Show license information
+  -v, --verbose...       Enable verbose output (may be repeated for more verbosity)
+  -V, --version          Print version information
+  -o, --output <FORMAT>  The output format
+  -h, --help             Print help
+```
 
 ### Supported Engines
 
@@ -103,11 +151,11 @@ git clone https://github.com/asimov-modules/asimov-serpapi-module.git
 
 ---
 
-[![Share on X](https://img.shields.io/badge/share%20on-x-03A9F4?logo=x)](https://x.com/intent/post?url=https://github.com/asimov-modules/asimov-serpapi-module&text=asimov-serpapi-module)
-[![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/asimov-modules/asimov-serpapi-module&title=asimov-serpapi-module)
-[![Share on Hacker News](https://img.shields.io/badge/share%20on-hn-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/asimov-modules/asimov-serpapi-module&t=asimov-serpapi-module)
-[![Share on Facebook](https://img.shields.io/badge/share%20on-fb-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/asimov-modules/asimov-serpapi-module)
-[![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/asimov-modules/asimov-serpapi-module)
+[![Share on X](https://img.shields.io/badge/share%20on-x-03A9F4?logo=x)](https://x.com/intent/post?url=https%3A%2F%2Fgithub.com%2Fasimov-modules%2Fasimov-serpapi-module&text=ASIMOV%20SerpApi%20Module)
+[![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fasimov-modules%2Fasimov-serpapi-module&title=ASIMOV%20SerpApi%20Module)
+[![Share on Hacker News](https://img.shields.io/badge/share%20on-hn-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fasimov-modules%2Fasimov-serpapi-module&t=ASIMOV%20SerpApi%20Module)
+[![Share on Facebook](https://img.shields.io/badge/share%20on-fb-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2Fasimov-modules%2Fasimov-serpapi-module)
+[![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fasimov-modules%2Fasimov-serpapi-module)
 
 [ASIMOV]: https://github.com/asimov-platform
 [JSON-LD]: https://json-ld.org

@@ -21,6 +21,10 @@ categories = [
 ]
 publish = true
 
+# See: https://readmer.dev
+[package.metadata.readmer.project]
+summary = "[ASIMOV] module for data import powered by the [SerpApi] search data platform."
+
 [features]
 default = ["all", "cli", "std"]
 all = ["tracing"]

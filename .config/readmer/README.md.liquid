@@ -1,12 +1,11 @@
-# ASIMOV SerpApi Module
+# {{ project.title }}
 
-[![License](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
-[![Package on Crates.io](https://img.shields.io/crates/v/asimov-serpapi-module.svg)](https://crates.io/crates/asimov-serpapi-module)
+{% render 'header/badges/rust', package: package %}
 [![Package on PyPI](https://img.shields.io/pypi/v/asimov-serpapi-module.svg)](https://pypi.org/project/asimov-serpapi-module)
 [![Package on RubyGems](https://img.shields.io/gem/v/asimov-serpapi-module.svg)](https://rubygems.org/gems/asimov-serpapi-module)
 [![Package on NPM](https://img.shields.io/npm/v/asimov-serpapi-module.svg)](https://npmjs.com/package/asimov-serpapi-module)
 
-[ASIMOV] module for data import powered by the [SerpApi] search data platform.
+**{{ project.summary }}**
 
 ## ✨ Features
 
@@ -22,28 +21,34 @@
 
 ## ⬇️ Installation
 
+### Installation with the [ASIMOV CLI]
+
+```bash
+asimov module install {{ project.name }} -v
+```
+
 ### Installation from PyPI
 
 ```bash
-pip install -U asimov-serpapi-module
+pip install -U {{ package.name }}
 ```
 
 ### Installation from RubyGems
 
 ```bash
-gem install asimov-serpapi-module
+gem install {{ package.name }}
 ```
 
 ### Installation from NPM
 
 ```bash
-npm install -g asimov-serpapi-module
+npm install -g {{ package.name }}
 ```
 
 ### Installation from Source Code
 
 ```bash
-cargo install asimov-serpapi-module
+cargo install {{ package.name }}
 ```
 
 ## 👉 Examples
@@ -81,10 +86,18 @@ asimov-serpapi-importer https://www.bing.com/search?q=Isaac+Asimov  # JSON-LD
 
 ## 📚 Reference
 
-### Installed Binaries
+### Command-Line Interface
 
 - `asimov-serpapi-fetcher`: collects JSON data from the SerpApi real-time API
 - `asimov-serpapi-importer`: collects and transforms JSON into JSON-LD
+
+#### `asimov-serpapi-fetcher`
+
+{% render '.config/readmer/asimov-serpapi-fetcher.sh-session' %}
+
+#### `asimov-serpapi-importer`
+
+{% render '.config/readmer/asimov-serpapi-importer.sh-session' %}
 
 ### Supported Engines
 
@@ -98,16 +111,12 @@ Google | `https://www.google.com/search?q=` | ✅ | ✅
 ## 👨‍💻 Development
 
 ```bash
-git clone https://github.com/asimov-modules/asimov-serpapi-module.git
+git clone {{ github.repository.url }}
 ```
 
 ---
 
-[![Share on X](https://img.shields.io/badge/share%20on-x-03A9F4?logo=x)](https://x.com/intent/post?url=https://github.com/asimov-modules/asimov-serpapi-module&text=asimov-serpapi-module)
-[![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/asimov-modules/asimov-serpapi-module&title=asimov-serpapi-module)
-[![Share on Hacker News](https://img.shields.io/badge/share%20on-hn-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/asimov-modules/asimov-serpapi-module&t=asimov-serpapi-module)
-[![Share on Facebook](https://img.shields.io/badge/share%20on-fb-1976D2?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/asimov-modules/asimov-serpapi-module)
-[![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/asimov-modules/asimov-serpapi-module)
+{% render 'footer/share', title: project.title, url: github.repository.link %}
 
 [ASIMOV]: https://github.com/asimov-platform
 [JSON-LD]: https://json-ld.org
