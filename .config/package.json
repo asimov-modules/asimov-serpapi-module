@@ -10,7 +10,7 @@
   "homepage": "https://github.com/asimov-modules",
   "bugs": "https://github.com/asimov-modules/asimov-serpapi-module/issues",
   "license": "Unlicense",
-  "author": "ASIMOV Protocol <support@asimov.so> (https://github.com/asimov-protocol)",
+  "author": "ASIMOV Community",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asimov-modules/asimov-serpapi-module.git"

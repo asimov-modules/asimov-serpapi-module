@@ -1,9 +1,7 @@
 # ASIMOV SerpApi Module
 
 [![License](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
-[![Compatibility](https://img.shields.io/badge/rust-2024%2B-blue)](https://endoflife.date/rust)
 [![Package on Crates.io](https://img.shields.io/crates/v/asimov-serpapi-module)](https://crates.io/crates/asimov-serpapi-module)
-[![Documentation](https://img.shields.io/docsrs/asimov-serpapi-module?label=docs.rs)](https://docs.rs/asimov-serpapi-module)
 [![Package on PyPI](https://img.shields.io/pypi/v/asimov-serpapi-module.svg)](https://pypi.org/project/asimov-serpapi-module)
 [![Package on RubyGems](https://img.shields.io/gem/v/asimov-serpapi-module.svg)](https://rubygems.org/gems/asimov-serpapi-module)
 [![Package on NPM](https://img.shields.io/npm/v/asimov-serpapi-module.svg)](https://npmjs.com/package/asimov-serpapi-module)

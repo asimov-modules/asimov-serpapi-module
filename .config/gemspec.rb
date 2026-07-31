@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   }
 
   gem.author             = "ASIMOV Protocol"
-  gem.email              = "support@asimov.so"
+  gem.email              = "support@asimov.systems"
 
   gem.platform           = ENV["RUBY_PLATFORM"] || Gem::Platform::CURRENT
   gem.bindir             = %q(bin)

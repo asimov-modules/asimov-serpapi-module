@@ -3,7 +3,7 @@
 [package]
 name = "asimov-serpapi-module"
 version = "0.1.4"
-authors = ["ASIMOV Protocol <support@asimov.so>"]
+authors = ["ASIMOV Community"]
 edition = "2024"
 #rust-version = "1.85"
 description = "ASIMOV module for data import powered by the SerpApi search data platform."

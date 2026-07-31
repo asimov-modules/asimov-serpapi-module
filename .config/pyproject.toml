@@ -5,7 +5,7 @@
 name = "asimov-serpapi-module"
 description = "ASIMOV module for data import powered by the SerpApi search data platform."
 readme = "README.md"
-authors = [{ name = "ASIMOV Protocol", email = "support@asimov.so" }]
+authors = [{ name = "ASIMOV Community" }]
 license = "Unlicense"
 license-files = ["UNLICENSE"]
 dynamic = ["version"]
